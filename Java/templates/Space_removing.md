@@ -1,4 +1,4 @@
-# String - Space removing
+# Space removing
 
 | Code                           | Description                                      |
 |--------------------------------|--------------------------------------------------|
