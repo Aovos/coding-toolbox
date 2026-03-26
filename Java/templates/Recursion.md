@@ -1,7 +1,5 @@
 # Recursion
 
-___
-
 > Recursion in Java (and in programming in general) is a concept
 > where a method calls itself to solve a problem (Loop, until something...)
 
