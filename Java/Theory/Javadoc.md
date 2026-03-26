@@ -1,6 +1,6 @@
 # Javadoc
 
-## Javadoc class
+### Javadoc class
 
 ```java
 /**
@@ -17,7 +17,7 @@ class Javadoc {
 }
 ```
 
-## Javadoc method
+### Javadoc method
 
 ```java
 //...
@@ -38,7 +38,7 @@ class Javadoc {
 //...
 ```
 
-## Javadoc Tags
+### Javadoc Tags
 
 | Tag                         | Description                                                                   |
 |-----------------------------|-------------------------------------------------------------------------------|
