@@ -14,7 +14,7 @@
 - Enum Handling
 - Default Handling
 
-### Example
+### Example:
 
 ```java
 public class Switch_Case_ {
