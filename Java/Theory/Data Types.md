@@ -1,6 +1,6 @@
 # Data Types
 
-##### Introduction
+### Introduction
 
 > In Java, primitive data types are the most basic data types that represent single values.
 > They are not objects and are predefined by the language. 
@@ -11,7 +11,7 @@
 > This organization provides a clear overview of the primitive data types in Java, their sizes, and their respective descriptions and examples.
  
 
-##### Integer Types
+### Integer Types
 
 | Data Type  | Size (in Bits) | Description                                                                         | Example            |
 |------------|----------------|-------------------------------------------------------------------------------------|--------------------|
@@ -21,18 +21,18 @@
 | long       | 64             | Integer value ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807  | long l = 100000L;  |
 
 
-##### Floating-Point Types
+### Floating-Point Types
 | Data Type  | Size (in Bits)  | Description                            | Example           |
 |------------|-----------------|----------------------------------------|-------------------|
 | float      | 32              | Single-precision floating-point number | float f = 5.75f;  |
 | double     | 64              | Double-precision floating-point number | double pi = 3.14; |
 
-##### Character Type
+### Character Type
 | Data Type  | Size (in Bits)  | Description              | Example            |
 |------------|-----------------|--------------------------|--------------------|
 | char       | 16              | Single Unicode character | char letter = 'A'; |
 
-##### Boolean Type
+### Boolean Type
 | Data Type  | Size (in Bits)       | Description                           | Example                |
 |------------|----------------------|---------------------------------------|------------------------|
 | boolean    | 1 (not standardized) | Represents a truth value (true/false) | boolean isTrue = true; |
