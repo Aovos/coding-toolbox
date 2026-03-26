@@ -8,7 +8,7 @@ Its purpose is to serve as a central toolbox, making it easy to reuse common bui
 - [🚀 How to Use](#-how-to-use)
 - [📝 Notes](#-notes)
 
-## Purpose
+## 🎯 Purpose
 The goal of this toolbox is to:
 
 Keep frequently used code in one place
@@ -17,7 +17,7 @@ Support learning new programming languages
 Provide clean templates to start new files or projects
 Avoid repeating the same code across multiple repositories
 
-## Structure
+## 📁 Structure
 The repository is organized by programming language, with each language separated into meaningful subfolders such as templates, utilities, and examples.
 Example structure:
 ````
@@ -40,14 +40,14 @@ Example structure:
 
 ````
 
-## How to Use
+## 🚀 How to Use
 
 Browse to the folder of the desired language
 Copy the snippet, template, or helper file you need
 Paste it into your new project and adapt it as required
 Add new snippets here whenever you learn something useful
 
-## Notes
+## 📝 Notes
 This repository grows over time.
 It is designed as a personal resource, but it can also be shared or expanded to include more languages, tools, and examples.
 Feel free to customize the structure as your needs evolve.
