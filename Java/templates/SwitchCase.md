@@ -1,12 +1,12 @@
 # SwitchCase
 
-##### What is SwitchCase ?
+### What is SwitchCase ?
 
 > The switch statement in Java is a control structure 
 > that allows you to execute different code blocks based on the value
 > of a variable -> alternative to long `if-else` chains
 
-##### Why do I need SwitchCase ?
+### Why do I need SwitchCase ?
 
 - Readability
 - Efficiency
@@ -14,7 +14,7 @@
 - Enum Handling
 - Default Handling
 
-##### Example
+### Example
 
 ```java
 public class Switch_Case_ {
