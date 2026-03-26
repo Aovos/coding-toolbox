@@ -1,21 +1,19 @@
 # Constructors in Java
 
-## What is a Constructor?
+### What is a Constructor?
 
 > A constructor is a special method in a class that is called when a new object of that class is created.
 > The main purpose of a constructor is to set the initial states of the object's attributes and to initialize resources.
 > Constructors have the same name as the class and do not have a return type, not even `void`.
 
-## Why Do We Need Constructors?
+### Why Do We Need Constructors?
 
 > Constructors are important because they ensure that objects are created in a valid state.
 > They allow parameters to be passed in to initialize the attributes of an object at the time of creation.
 > Without constructors, developers would have to manually set all attributes after creating an object,
 > which can be error-prone and impractical.
 
-## General Syntax of a Constructor
-
-The general syntax of a constructor looks like this:
+### General Syntax of a Constructor
 
 ```java
 public class ClassName {
@@ -30,9 +28,8 @@ public class ClassName {
     
 }
 ```
-___
-Example of a Constructor
 
+### Example of a Constructor
 Here is a simple example that shows a constructor in a class called Car:
 
 ```java
