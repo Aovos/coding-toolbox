@@ -71,4 +71,5 @@
 |Hochgestellt|`<sup>...</sup>`|	Hochgestellter Text|2<sup>3</sup>|
 |Tiefgestellt|`<sub>...</sub>`|Tiefgestellter Text|H<sub>2</sub>O|
 |Inline Code|`<code>...</code>`|Markiert kurze Codebegriffe im Fließtext|Das<code>hier</code>|
+||
 
