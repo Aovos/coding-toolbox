@@ -1,8 +1,6 @@
 # Operators
 
-___
-
-## 1. Arithmetic Operators
+### 1. Arithmetic Operators
 
 | Symbol | Meaning        | Explanation                                |
 |--------|----------------|--------------------------------------------|
@@ -12,9 +10,8 @@ ___
 | `/`    | Division       | Divides the first number by the second     |
 | `%`    | Modulo         | Returns the remainder of the division      |
 
-___
 
-## 2. Comparison Operators
+### 2. Comparison Operators
 
 | Symbol | Meaning               | Explanation                                                      |
 |--------|-----------------------|------------------------------------------------------------------|
@@ -25,9 +22,8 @@ ___
 | `>=`   | Greater than or equal | Checks if the left number is greater than or equal to the right  |
 | `<=`   | Less than or equal    | Checks if the left number is less than or equal to the right     |
 
-___
 
-## 3. Logical Operators
+### 3. Logical Operators
 
 | Symbol  | Meaning     | Explanation                                                             |
 |---------|-------------|-------------------------------------------------------------------------|
@@ -35,9 +31,9 @@ ___
 | `\|\|`  | Logical OR  | Returns true if at least one of the conditions is true, otherwise false |
 | `!`     | Logical NOT | Inverts the boolean value (true becomes false and vice versa)           |
 
-___
 
-## 4. Assignment Operators
+### 4. Assignment Operators
+
 | Symbol | Meaning                    | Explanation                                                                                                                  |
 |--------|----------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | `=`    | Assignment                 | Assigns the value on the right to the variable on the left                                                                   |
@@ -47,17 +43,18 @@ ___
 | `/=`   | Division assignment        | Divides the left variable by the right value and assigns the result to the left variable                                     |
 | `%=`   | Modulo assignment          | Calculates the remainder of the division of the left variable by the right value and assigns the result to the left variable |
 
-___
 
-## 5. Increment and Decrement Operators
+### 5. Increment and Decrement Operators
+
 | Symbol | Meaning   | Explanation                              |
 |--------|-----------|------------------------------------------|
 | `++`   | Increment | Increases the value of the variable by 1 |
 | `--`   | Decrement | Decreases the value of the variable by 1 |
 
-___
 
-## 6. Bitwise Operators
+
+### 6. Bitwise Operators
+
 | Symbol | Meaning               | Explanation                                                                                                       |
 |--------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | `&`    | Bitwise AND           | Compares the bits of two numbers and returns 1 if both bits are 1                                                 |
