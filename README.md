@@ -44,7 +44,7 @@ Copy the snippet, template, or helper file you need
 Paste it into your new project and adapt it as required
 Add new snippets here whenever you learn something useful
 
-## Notes
+## 📝 Notes
 This repository grows over time.
 It is designed as a personal resource, but it can also be shared or expanded to include more languages, tools, and examples.
 Feel free to customize the structure as your needs evolve.
