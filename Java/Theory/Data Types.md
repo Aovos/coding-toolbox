@@ -1,7 +1,5 @@
 # Data Types
 
-___
-
 ##### Introduction
 
 > In Java, primitive data types are the most basic data types that represent single values.
