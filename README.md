@@ -3,7 +3,7 @@ This repository is a personal collection of reusable code snippets, templates, h
 Its purpose is to serve as a central toolbox, making it easy to reuse common building blocks while learning or working on new projects.
 
 ## Inhaltsverzeichnis
-- [Notes](#notes)
+- [Notes](#-notes)
 
 ## Purpose
 The goal of this toolbox is to:
