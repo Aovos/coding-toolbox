@@ -1,6 +1,6 @@
 # Operators
 
-### 1. Arithmetic Operators
+### Arithmetic Operators
 
 | Symbol | Meaning        | Explanation                                |
 |--------|----------------|--------------------------------------------|
@@ -11,7 +11,7 @@
 | `%`    | Modulo         | Returns the remainder of the division      |
 
 
-### 2. Comparison Operators
+### Comparison Operators
 
 | Symbol | Meaning               | Explanation                                                      |
 |--------|-----------------------|------------------------------------------------------------------|
@@ -23,7 +23,7 @@
 | `<=`   | Less than or equal    | Checks if the left number is less than or equal to the right     |
 
 
-### 3. Logical Operators
+### Logical Operators
 
 | Symbol  | Meaning     | Explanation                                                             |
 |---------|-------------|-------------------------------------------------------------------------|
@@ -32,7 +32,7 @@
 | `!`     | Logical NOT | Inverts the boolean value (true becomes false and vice versa)           |
 
 
-### 4. Assignment Operators
+### Assignment Operators
 
 | Symbol | Meaning                    | Explanation                                                                                                                  |
 |--------|----------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@
 | `%=`   | Modulo assignment          | Calculates the remainder of the division of the left variable by the right value and assigns the result to the left variable |
 
 
-### 5. Increment and Decrement Operators
+### Increment and Decrement Operators
 
 | Symbol | Meaning   | Explanation                              |
 |--------|-----------|------------------------------------------|
@@ -53,7 +53,7 @@
 
 
 
-### 6. Bitwise Operators
+### Bitwise Operators
 
 | Symbol | Meaning               | Explanation                                                                                                       |
 |--------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
