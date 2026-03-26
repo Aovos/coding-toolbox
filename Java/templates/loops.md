@@ -1,13 +1,11 @@
 # loops
 
-___
-
-## What are loops?
+### What are loops?
 
 > Loops are a fundamental programming construct that allows you
 > to execute a block of code repeatedly based on a specified condition.
 
-## Why do I need loops?
+### Why do I need loops?
 
 > They are essential for tasks that require repetition,
 > such as iterating over arrays, processing collections,
@@ -15,7 +13,7 @@ ___
 > By using loops, you can write more efficient and concise code,
 > reducing redundancy and improving maintainability.
 
-## Which loops are there ?
+### Which loops are there ?
 
 | loop       | Description                                                                      |
 |------------|----------------------------------------------------------------------------------|
@@ -24,7 +22,7 @@ ___
 | `while`    | Executes a block of code as long as a condition is true                          |
 | `do_while` | Executes a block of code at least once, then checks a condition                  |
 
-## Loops
+### Loops
 
 ##### for
 
@@ -41,7 +39,6 @@ for (int i = 0; i< 5; i++) {
     System.out.println(i);
 }
 ```
-___
 
 ##### for_each
 
@@ -61,8 +58,6 @@ for (int number : numbers) {
 }
 ```
 
-___
-
 ##### while
 
 ```java
@@ -81,7 +76,6 @@ while (i < 5) {
     i++;
 }
 ```
-___
 
 ##### do_while
 ```java
