@@ -4,11 +4,7 @@
 > It is where the program starts its execution.
 > The Java Virtual Machine (JVM) looks for this method when running a Java program.
 
-___
-
-## Syntax of the `main` method
-
-The syntax of the `main` method is as follows:
+### Syntax of the `main` method
 
 ```java
 public static void main(String[] args) {
@@ -16,11 +12,7 @@ public static void main(String[] args) {
 }
 ```
 
-___
-
-## Example of a simple `main` method
-
-Here is a simple example of a Java program that uses the main method:
+### Example of a simple `main` method
 
 ```java
 public class HelloWorld {
