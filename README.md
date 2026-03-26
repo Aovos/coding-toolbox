@@ -2,7 +2,10 @@
 This repository is a personal collection of reusable code snippets, templates, helper classes, and small examples across different programming languages.
 Its purpose is to serve as a central toolbox, making it easy to reuse common building blocks while learning or working on new projects.
 
-## 🎯 Purpose
+## Inhaltsverzeichnis
+- [Notes](#notes)
+
+## Purpose
 The goal of this toolbox is to:
 
 Keep frequently used code in one place
@@ -41,7 +44,7 @@ Copy the snippet, template, or helper file you need
 Paste it into your new project and adapt it as required
 Add new snippets here whenever you learn something useful
 
-## 📝 Notes
+## Notes
 This repository grows over time.
 It is designed as a personal resource, but it can also be shared or expanded to include more languages, tools, and examples.
 Feel free to customize the structure as your needs evolve.
