@@ -1,12 +1,9 @@
 # GitHub
 
----
 
 ## What is a `Repository` ?
 
 > A `Repository`, or short `Repo` is a place where you can store your Code.
-
-___
 
 ## Why do I need a `Repository` ?
 
@@ -26,8 +23,6 @@ for...
 
 - Documentation
 
-___
-
 ## Repository Basics:
 
 | Term:          | Definition:                                                                                                                                                                                                                                                        |
@@ -43,5 +38,3 @@ ___
 | `Upstream`     | The original repository from which your fork or branch come from                                                                                                                                                                                                   |
 | `Downstream`   | The fork or branch of a original repository                                                                                                                                                                                                                        |
 | `Issue(s)`     | Collect user feedback, report software bugs, organize tasks you'd like to accomplish                                                                                                                                                                               |
-
----
