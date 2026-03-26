@@ -1,6 +1,6 @@
 # Scanner
 
-##### What is a Scanner ?
+### What is a Scanner ?
 
 > The Scanner in Java is a class from the java.util package
 > used for reading input from various sources,
@@ -8,13 +8,13 @@
 > It simplifies the process of parsing and converting input 
 > into different data types (like int, double, String, etc.).
 
-##### Why do I need it ?
+### Why do I need it ?
 
 - User Input: Commonly used to read input from users via the console.
 - File Input: Can read data from files, making it useful for processing external data.
 - Easy Parsing: Provides methods for tokenizing input, such as separating words or lines.
 
-##### Example
+### Example:
 
 ```java
 import java.util.Scanner; //You need to import it, for using Scanner
