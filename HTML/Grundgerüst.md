@@ -97,6 +97,24 @@
 |Inline‑Markierung|`<span>...</span>`|Markiert kleine Textbereiche, die individuell mit CSS gestaltet werden sollen|Dies ist ein <span>markiertes Wort</span>|
 
 ---
+
+#### Dateipfade in HTML
+`Alle eingebundenen Dateien (Bilder, Videos, Audio, CSS, JS, interne Links, Downloads …) verwenden dasselbe Pfadsystem.`
+```
+./                        → aktueller Ordner (kann weggelassen werden)
+../datei.txt              → eine Ebene höher
+../../datei.pdf           → zwei Ebenen höher
+../../../datei.mp4        → drei Ebenen höher
+usw.
+
+Beispiele:
+bild.jpg                  → Datei im aktuellen Ordner
+https://example.com/...   → absolute URL (externes Bild/Video/Datei)
+unterordner/datei.png     → Datei im Unterordner (Ordnernamen immer ausschreiben!)
+```
+
+---
+
 #### Links
 
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
@@ -163,4 +181,65 @@
 |Vollbild erlauben|`allowfullscreen`|Erlaubt, dass der externe Inhalt im Vollbild angezeigt werden kann|
 |Sicherheits‑/Zugriffsrechte|`allow="..."`|Erlaubt Funktionen wie z.B. `autoplay`, `clipboard-write`, `encrypted-media` usw.|
 |Ladeverhalten|`loading="lazy"`|Lädt das iframe erst, wenn es sichtbar wird (Performance‑Optimierung)|
+
 ---
+
+#### Tabellen
+```
+<table>   = der Rahmen / die komplette Tabelle
+
+  <caption> = Tabellen-Überschrift (Titel der gesamten Tabelle)
+
+  <thead>   = Kopfzeile der Tabelle
+    <tr>    = Kopfzeile besteht aus Zeilen
+      <th>  = Titelzellen -> Spalten-Titel-Elemente
+
+  <tbody>   = Tabelleninhalt unter dem Tabellenkopf
+    <tr>    = Tabellenzeilen
+      <td>  = normale Datenzellen
+
+  <tfoot>   = Tabellenfuß (z. B. Zusammenfassung, Stand, Hinweise)
+```
+##### Tabellen Beispiel
+<table>
+  <caption>Benutzerübersicht</caption>
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Alter</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Anna</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>Markus</td>
+      <td>31</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="2">Stand: 2026</td>
+    </tr>
+  </tfoot>
+</table>
+
+|Code‑Element:|Code:|Beschreibung:|
+|-|-|-|
+|Tabelle erstellen|`<table> ... </table>`|Erstellt eine Tabelle → äußerer Rahmen|
+|Tabellen‑Titel|`<caption> ... </caption>`|Überschrift der gesamten Tabelle (steht direkt unter `<table>`!)|
+|Tabellenkopf|`<thead> ... </thead>`|Kopfzeile der Tabelle – enthält die Spaltenüberschriften|
+|Tabellenzeile (Kopf)|`<tr> ... </tr>`|Zeile im Tabellenkopf|
+|Titelzelle|`<th> ... </th>`|Kopfzelle → Spalten‑ bzw. Zeilenüberschrift|
+|Tabellenkörper|`<tbody> ... </tbody>`|Hauptinhalt der Tabelle (unter dem Tabellenkopf)|
+|Tabellenzeile (Inhalt)|`<tr> ... </tr>`|Eine Datenzeile im Tabellenkörper|
+|Datenzelle|`<td> ... </td>`|Normale Tabellenzelle (Inhalt)|
+|Tabellenfuß|`<tfoot> ... </tfoot>`|Fußbereich der Tabelle – z. B. Summen, Standangaben, Hinweise|
+|Spalten verbinden|`colspan="X"`|Verbindet mehrere Spalten zu einer einzigen Zelle|
+|Zeilen verbinden|`rowspan="X"`|Verbindet mehrere Zeilen zu einer einzigen Zelle|
+
