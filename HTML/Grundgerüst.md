@@ -57,12 +57,14 @@
 |Zeilenumbruch|`...<br>`|Text geht über mehrere Zeilen (bleibt aber ein Absatz)|Zeile 1<br>Zeile 2<br>Zeile 3|
 |Trennlinie|`<hr>`|Fügt eine horizontale Trennlinie hinzu|<hr>|
 |Unordered List|`<ul><li>Eintrag</li></ul>`|Aufzählung - ohne Reihenfolge (Bulletlist)|<ul><li>Milch</li><li>Brot</li><li>Waschmittel</li></ul>|
-|Ordered List|`<ul><li>...</li><li>...</li></ul>`|Geordnete Liste - Aufzählung|<ol><li>Schritt</li><li>Schritt</li><li>Schritt</li></ol>|
+|Ordered List|`<ol><li>...</li><li>...</li></ol>`|Geordnete Liste - Aufzählung|<ol><li>Schritt</li><li>Schritt</li><li>Schritt</li></ol>|
 |Definition List|`<dl><dt>...</dt><dd>...</dd></dl>`|dt=Definition Term      dd=Definitions Beschreibung (beide müssen angegeben werden|<dl><dt>RAID ausgeschrieben?</dt><dd>Redundant Array of Independent Disks</dd></dl>|
 
 ##### Text-Formatierungen
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
 |-|-|-|-|
+|Semantisch Wichtig|`<strong>...</strong>`|Kennzeichnet wichtige/bedeutungsvolle Informationen|<strong>Backup‑Geschwindigkeit:</strong> Bis zu 40% schneller mit der neuen Engine.|
+|Semantisch betont|`<em>...</em>`|Markiert Wörter, die beim Lesen betont werden sollen|Ich habe <em>wirklich</em> alles versucht.|
 |Fett|`<b>...</b>`|Macht Text fett|<b>Text</b>|
 |Kursiv|`<i>...</i>`|Macht Text kursiv|<i>Text</i>|
 |Unterstrichen|`<u>...</u>`|Unterstreicht Text|<u>Text</u>|
@@ -71,5 +73,4 @@
 |Hochgestellt|`<sup>...</sup>`|	Hochgestellter Text|2<sup>3</sup>|
 |Tiefgestellt|`<sub>...</sub>`|Tiefgestellter Text|H<sub>2</sub>O|
 |Inline Code|`<code>...</code>`|Markiert kurze Codebegriffe im Fließtext|Das<code>hier</code>|
-||
 
