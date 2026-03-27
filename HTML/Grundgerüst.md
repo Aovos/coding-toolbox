@@ -69,7 +69,7 @@
 |Unterkapitel 5|`<h5>...</h5>`|Unterkapitel in der Ebene 5 (seltener)|<h5>Unterkapitel</h5>|
 |Unterkapitel 6|`<h6>...</h6>`|Unterkapitel in der Ebene 6 (seltener)|<h6>Unterkapitel</h6>|
 
-##### Struktur
+##### Text-Struktur
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
 |-|-|-|-|
 |Absatz|`<p>...</p>`|Einfacher Text Abssatz -> (z.B. als würde man in Word einfach drauf los tippen)|<p>Mein Text</p>|
@@ -96,3 +96,71 @@
 |Inline Code|`<code>...</code>`|Markiert kurze Codebegriffe im Fließtext|Das<code>hier</code>|
 |Inline‑Markierung|`<span>...</span>`|Markiert kleine Textbereiche, die individuell mit CSS gestaltet werden sollen|Dies ist ein <span>markiertes Wort</span>|
 
+---
+#### Links
+
+|Code‑Element:|Code:|Beschreibung:|Beispiel:|
+|-|-|-|-|
+|Standard‑Link|`<a href="URL">…</a>`|Erstellt einen klickbaren Link zu einer anderen Webseite|<a href="https://example.com">Beispiel</a>|
+|Interner Link|`<a href="seite.html">…</a>`|Verlinkt auf eine Datei innerhalb derselben Webseite (Datei muss existieren!)|<a href="kontakt.html">Kontakt</a>|
+|Mail‑Link|`<a href="mailto:adresse@example.com">…</a>`|Öffnet das Standard‑Mailprogramm mit der Adresse|<a href="mailto:info@example.com">E‑Mail senden</a>|
+|Telefon‑Link|`<a href="tel:0123456789">…</a>`|Auf Smartphones anrufbar|<a href="tel:0123456789">Jetzt anrufen</a>|
+
+###### Link‑Attribute (Optionen)
+|Attribut|Code|Beschreibung|
+|-|-|-|
+|Neuer Tab|`target="_blank"`|Öffnet den Link in einem neuen Browser‑Tab|
+|Tooltip|`title="Text"`|Zeigt beim Hover einen Hinweistext (Tooltip) an|
+|Download|`download`|Erzwingt das Herunterladen der verlinkten Datei|
+|Download mit Dateiname|`download="Dateiname.ext"`|Legt einen eigenen Dateinamen für den Download fest|
+
+---
+
+#### Bilder
+
+|Code‑Element:|Code:|Beschreibung:|Beispiel:|
+|-|-|-|-|
+|Bild einfügen|`<img src="bild.jpg" alt="Beschreibung">`|Zeigt ein Bild an. `src` = Pfad zur Datei, `alt` = Beschreibung für Screenreader & SEO|<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">|
+|Bildbreite setzen|`<img src="bild.jpg" width="300">`|Legt die sichtbare Breite des Bildes fest (in Pixeln oder %) |<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="300">|
+|Bildhöhe setzen|`<img src="bild.jpg" height="200">`|Legt die sichtbare Höhe des Bildes fest|<img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian-OpenLogo.svg" alt="Debian Logo">|
+|Bildgrößen frei skalieren|`<img src="bild.jpg" width="300" height="200">`|Breite & Höhe gleichzeitig setzen (Achtung: verzerrt das Bild!)|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Archlinux-logo-standard-version.svg/1920px-Archlinux-logo-standard-version.svg.png" width="300" height="200" alt="Arch Linux Logo">|
+
+---
+
+#### Media (Video & Audio)
+
+
+|Code‑Element:|Code:|Beschreibung:|
+|-|-|-|
+|Video einbinden|`<video src="video.mp4" Optionen></video>`|Bindet ein Video ein|
+|Audio einbinden|`<audio src="audio.mp3" Optionen></audio>`|Bindet eine Audio‑Datei ein|
+
+##### Media‑Attribute (Optionen)
+
+|Code‑Element:|Code:|Beschreibung:|
+|-|-|-|
+|Steuerelemente|`controls`|Zeigt die Wiedergabe‑Steuerung an (Play/Pause, Lautstärke, Zeitlinie)|
+|Automatisch abspielen|`autoplay`|Startet Video/Audio automatisch (wird oft blockiert, benötigt meist `muted`)|
+|Wiederholen|`loop`|Spielt Video/Audio automatisch von vorne ab|
+|Stumm starten|`muted`|Startet ohne Ton (notwendig für Autoplay auf modernen Browsern)|
+|Vorschaubild (nur Video)|`poster="bild.jpg"`|Zeigt ein Vorschaubild, bevor das Video startet|
+
+---
+
+#### Externe Einbettungen (Embeds)
+
+|Code‑Element:|Code:|Beschreibung:|
+|-|-|-|
+|Externe Inhalte einbetten|`<iframe src="URL" Optionen></iframe>`|Bindet externe Inhalte wie Webseiten, YouTube‑Videos, Karten oder Tools ein.|
+
+##### Iframe‑Attribute (Optionen)
+
+|Code‑Element:|Code:|Beschreibung:|
+|-|-|-|
+|Breite setzen|`width="600"`|Legt die Breite des eingebetteten Inhalts fest (Pixel oder %)|
+|Höhe setzen|`height="400"`|Legt die Höhe fest (Pixel oder %)|
+|Rahmen deaktivieren|`frameborder="0"`|Entfernt den iframe‑Rahmen (wird oft genutzt)|
+|Vollbild erlauben|`allowfullscreen`|Erlaubt, dass der externe Inhalt im Vollbild angezeigt werden kann|
+|Sicherheits‑/Zugriffsrechte|`allow="..."`|Erlaubt Funktionen wie z.B. `autoplay`, `clipboard-write`, `encrypted-media` usw.|
+|Ladeverhalten|`loading="lazy"`|Lädt das iframe erst, wenn es sichtbar wird (Performance‑Optimierung)|
+---
