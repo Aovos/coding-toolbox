@@ -9,6 +9,8 @@
       content="width=device-width,
       initial-scale=1.0">
     <title>Meine Seite</title>
+    <meta name="description" content="Kurze, präzise Beschreibung der Seite.">
+    <meta name="author" content="Dein Name">
   </head>
   <body>
     <!-- Sichtbarer Inhalt -->
@@ -28,19 +30,38 @@
 ---
 
 ### `<head>`
-|Code‑Element:|Code:|Beschreibung:|
-|-|-|-|
-|Zeichensatz|`<meta charset="UTF-8">`|Sorgt dafür, dass Umlaute/ Sonderzeichen korrekt dargestellt werden|
-|Viewport|`<meta name="viewport" content="width=device-width, initial-scale=1.0">`|Sorgt für richtige Skalierung auf Smartphones und Tablets|
-|Titel|`<title>`|Titel der Seite → wird im Browser‑Tab angezeigt|
+
+##### Meta-Daten
+
+|Code‑Element:|Code:|Beschreibung:|Beispiel:|
+|-|-|-|-|
+|Zeichensatz|`<meta charset="UTF-8">`|Legt die Zeichencodierung fest (Umlaute, Sonderzeichen)|/|
+|Viewport|`<meta name="viewport" content="width=device-width, initial-scale=1.0">`|Sorgt für korrekte Darstellung (Skalierung) auf mobilen Geräten|/|
+|Titel|`<title>Meine Seite</title>`|Titel der Webseite (steht im Browser‑Tab)|Webseite XYZ|
+|Beschreibung|`<meta name="description" content="">`|Kurzbeschreibung für Suchmaschinen (SEO)|"Die Webseite macht das und das und das|
+|Autor|`<meta name="author" content="">`|Gibt den Autor/Ersteller der Seite an|[Name des Autors]|
+
 ---
 
 ### `<body>`
 
+### Strukturelemente im `<body>`
+|Code|Code‑Element|Beschreibung|
+|-|-|-|
+|`<header>`|Kopfbereich|Enthält oft Logo, Titel, Navigation oder Suchleiste|
+|`<nav>`|Navigation|Bereich für Menülinks oder andere Navigationselemente|
+|`<main>`|Hauptinhalt|Der wichtigste Inhaltsbereich der Seite — darf **nur einmal** vorkommen|
+|`<section>`|Abschnitt|Thematischer Bereich, gruppiert logisch zusammengehörige Inhalte|
+|`<article>`|Artikel|Eigenständige Inhalte wie Blogposts, News oder Produktbeschreibungen|
+|`<aside>`|Nebeninhalt|Sidebar, Werbung, ergänzende Infos oder weiterführende Links|
+|`<footer>`|Fußbereich|Enthält z. B. Copyright, Kontakt, Impressum, Links|
+|`<div>`|Block‑Container|Strukturelement -> für Layout & Gruppierung von Bereichen|
+
+
 ##### Text-Überschrift
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
 |-|-|-|-|
-|Kommentar|`<!-- [Text] -->`|Wird im Browser nicht angezeigt -> kann auch mehrzeilig als Kommentarblock genutzt werden (einfach --> später setzen).)|<!-- [Mein Text] -->|
+|Kommentar|`<!-- [Text] -->`|Wird im Browser nicht angezeigt -> kann auch mehrzeilig als Kommentarblock genutzt werden (einfach --> später setzen).)|<! -- Kommentar -->|
 |Hauptüberschrift|`<h1>...</h1>`|Haupttitel einer Seite verwendet -> (Darf nur einmal verwendet werden!)|<h1>Hauptüberschrift</h1>|
 |Kapitel-Überschrift|`<h2>...</h2>`|Strukturiert Inhalte unterhalb der H1|<h2>Kapitel</h2>|
 |Unterkapitel 3|`<h3>...</h3>`|Strukturiert Inhalte unterhalb der H2 |<h3>Unterkapitel</h3>|
@@ -73,4 +94,5 @@
 |Hochgestellt|`<sup>...</sup>`|	Hochgestellter Text|2<sup>3</sup>|
 |Tiefgestellt|`<sub>...</sub>`|Tiefgestellter Text|H<sub>2</sub>O|
 |Inline Code|`<code>...</code>`|Markiert kurze Codebegriffe im Fließtext|Das<code>hier</code>|
+|Inline‑Markierung|`<span>...</span>`|Markiert kleine Textbereiche, die individuell mit CSS gestaltet werden sollen|Dies ist ein <span>markiertes Wort</span>|
 
