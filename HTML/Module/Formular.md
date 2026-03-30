@@ -24,29 +24,14 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
 
 Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 
-```html
-<label for="n">Name:</label>
-<input type="text" id="n">
-```
-
 |Code-Element|Code|Beschreibung|Beispiel|
 |-|-|-|-|
 |Label|`<label for="id">`|Text, der mit einem Feld verknüpft ist|`<label for="email">E-Mail</label>`|
 |Verknüpfung|`for="id"`|Zeigt auf das zugehörige Eingabefeld|`for="pw"`|
 
----
-
 # Eingabefelder (Input)
 
 ## Textbasierte Felder
-
-```html
-<input type="text">
-<input type="email">
-<input type="password">
-<input type="tel">
-<input type="url">
-```
 
 |Typ|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -56,16 +41,7 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Telefon|`<input type="tel">`|Telefonnummer|+49 123 4567|
 |URL|`<input type="url">`|Webadresse|https://example.com|
 
----
-
 ## Zahlen & Datum
-
-```html
-<input type="number" min="0" max="10">
-<input type="date">
-<input type="time">
-<input type="datetime-local">
-```
 
 |Typ|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -74,7 +50,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Time|`<input type="time">`|Uhrzeitauswahl|14:30|
 |Datetime|`<input type="datetime-local">`|Datum + Uhrzeit|2026-03-30T14:30|
 
----
 
 # Kontrollfelder (Checkbox & Radio)
 
