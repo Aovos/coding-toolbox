@@ -1,5 +1,8 @@
 # Übersicht:
-- [Grundgerüst](#grundgerüst)
+
+- [Grundaufbau](#grundaufbau)
+
+
 - [Weiter: Text‑Überschriften](Module/Text-Überschrift.md)
 - [Metadaten](#meta-daten)
 - [Text-Überschrift](#text-überschrift)
@@ -12,7 +15,7 @@
 - [Externe Einbettungen (Embeds)](#externe-einbettungen)
 - [Tabellen](#tabellen)
 
-# Grundgerüst
+# Grundaufbau
 
 ```html
 <!DOCTYPE html>
