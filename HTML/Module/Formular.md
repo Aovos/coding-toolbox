@@ -25,9 +25,7 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Label|`<label for="id">`|Text, der mit einem Feld verknüpft ist|`<label for="email">E-Mail</label>`|
 |Verknüpfung|`for="id"`|Zeigt auf das zugehörige Eingabefeld|`for="pw"`|
 
-# Eingabefelder (Input)
-
-## Textbasierte Felder
+## Eingabefeld Text
 
 |Typ|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -37,7 +35,7 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Telefon|`<input type="tel">`|Telefonnummer|+49 123 4567|
 |URL|`<input type="url">`|Webadresse|https://example.com|
 
-## Zahlen & Datum
+## Eingabefeld Zahlen & Datum
 
 |Typ|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -45,7 +43,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Date|`<input type="date">`|Datumsauswahl|2026-03-30|
 |Time|`<input type="time">`|Uhrzeitauswahl|14:30|
 |Datetime|`<input type="datetime-local">`|Datum + Uhrzeit|2026-03-30T14:30|
-
 
 # Kontrollfelder (Checkbox & Radio)
 
