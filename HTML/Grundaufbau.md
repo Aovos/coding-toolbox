@@ -75,29 +75,6 @@
 |`<div>`|Block‑Container|Strukturelement -> für Layout & Gruppierung von Bereichen|
 
 
-##### Text-Überschrift
-|Code‑Element:|Code:|Beschreibung:|Beispiel:|
-|-|-|-|-|
-|Kommentar|`<!-- [Text] -->`|Wird im Browser nicht angezeigt -> kann auch mehrzeilig als Kommentarblock genutzt werden (einfach --> später setzen).)|<! -- Kommentar -->|
-|Hauptüberschrift|`<h1>...</h1>`|Haupttitel einer Seite verwendet -> (Darf nur einmal verwendet werden!)|<h1>Hauptüberschrift</h1>|
-|Kapitel-Überschrift|`<h2>...</h2>`|Strukturiert Inhalte unterhalb der H1|<h2>Kapitel</h2>|
-|Unterkapitel 3|`<h3>...</h3>`|Strukturiert Inhalte unterhalb der H2 |<h3>Unterkapitel</h3>|
-|Unterkapitel 4|`<h4>...</h4>`|Unterkapitel in der Ebene 4 (seltener)|<h4>Unterkapitel</h4>|
-|Unterkapitel 5|`<h5>...</h5>`|Unterkapitel in der Ebene 5 (seltener)|<h5>Unterkapitel</h5>|
-|Unterkapitel 6|`<h6>...</h6>`|Unterkapitel in der Ebene 6 (seltener)|<h6>Unterkapitel</h6>|
-
-##### Text-Struktur
-|Code‑Element:|Code:|Beschreibung:|Beispiel:|
-|-|-|-|-|
-|Absatz|`<p>...</p>`|Einfacher Text Abssatz -> (z.B. als würde man in Word einfach drauf los tippen)|<p>Mein Text</p>|
-|Code-Block|`<pre><code>...</code></pre>`|Code-Block -> mehrzeiliger Inhaltsbereich, der sich vom restlichen Text absetzt.|<pre><code>Code-Block</code></pre>|
-|Textfeld (statisch)|`<pre>...</pre>`|Ein statisches Textfeld -> Text wird genau so abgebildet|<pre>Statisches    Text f e l d</pre>|
-|Zeilenumbruch|`...<br>`|Text geht über mehrere Zeilen (bleibt aber ein Absatz)|Zeile 1<br>Zeile 2<br>Zeile 3|
-|Trennlinie|`<hr>`|Fügt eine horizontale Trennlinie hinzu|<hr>|
-|Unordered List|`<ul><li>Eintrag</li></ul>`|Aufzählung - ohne Reihenfolge (Bulletlist)|<ul><li>Milch</li><li>Brot</li><li>Waschmittel</li></ul>|
-|Ordered List|`<ol><li>...</li><li>...</li></ol>`|Geordnete Liste - Aufzählung|<ol><li>Schritt</li><li>Schritt</li><li>Schritt</li></ol>|
-|Definition List|`<dl><dt>...</dt><dd>...</dd></dl>`|dt=Definition Term      dd=Definitions Beschreibung (beide müssen angegeben werden|<dl><dt>RAID ausgeschrieben?</dt><dd>Redundant Array of Independent Disks</dd></dl>|
-
 ##### Text-Formatierungen
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
 |-|-|-|-|
