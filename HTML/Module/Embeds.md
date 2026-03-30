@@ -1,5 +1,5 @@
 [<- Zurück](../Grundaufbau.md)
-# Externe Einbettungen
+# Embeds
 
 |Code‑Element:|Code:|Beschreibung:|
 |-|-|-|
