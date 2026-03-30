@@ -12,6 +12,13 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
 ```html
 <form action="ziel.php" method="post">
   <!-- Formularelemente -->
+  label
+  input
+  textarea
+  select
+  buttons
+  
+  
 </form>
 ```
 
@@ -19,7 +26,7 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
 |-|-|-|-|
 |Formular erstellen|`<form>`|Umschließt alle Eingabefelder und Buttons|`<form action="login.php" method="post">`|
 |action|`action="ziel.php"`|Zieladresse/Datei, an die die Formulardaten gesendet werden|`action="/absenden.php"`|
-|method|`method="post/get"`|Art der Datenübertragung (GET sichtbar, POST verborgen)|`method="post"`|
+|method|`method="post/get"`|Art der Datenübertragung (GET=sichtbar offen, POST=versteckt & vertraulich)|`method="post"`|
 
 ## Labels
 
@@ -39,11 +46,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Passwort|`<input type="password">`|Eingabe wird verdeckt dargestellt|******|
 |Telefon|`<input type="tel">`|Telefonnummer|+49 123 4567|
 |URL|`<input type="url">`|Webadresse|https://example.com|
-
-## Eingabefeld Zahlen & Datum
-
-|Typ|Code|Beschreibung|Beispiel|
-|-|-|-|-|
 |Number|`<input type="number">`|Zahlenfeld, optional mit Begrenzung|min/max|
 |Date|`<input type="date">`|Datumsauswahl|2026-03-30|
 |Time|`<input type="time">`|Uhrzeitauswahl|14:30|
