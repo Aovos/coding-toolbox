@@ -9,9 +9,7 @@
 - [Text-Struktur](./Module/Text-Struktur.md)
 - [Text-Formatierungen](./Module/Text-Formatierungen.md)
 ---
-
-
-
+### Inhaltselemente
 - [Links](#links)
 - [Bilder](#bilder)
 - [Media (Video & Audio)](#media-video-und-audio)
