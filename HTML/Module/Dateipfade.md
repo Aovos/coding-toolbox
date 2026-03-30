@@ -1,5 +1,5 @@
 [<- Zurück](../Grundaufbau.md)
-# Dateipfade in HTML
+# Dateipfade
 `Alle eingebundenen Dateien (Bilder, Videos, Audio, CSS, JS, interne Links, Downloads …) verwenden dasselbe Pfadsystem.`
 ```
 ./                        → aktueller Ordner (kann weggelassen werden)
