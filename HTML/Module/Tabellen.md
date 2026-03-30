@@ -18,7 +18,7 @@
 
   <tfoot>   = Tabellenfuß (z. B. Zusammenfassung, Stand, Hinweise)
 ```
-### Tabellen Beispiel
+## Tabellen Beispiel
 
 <table>
   <caption>Benutzerübersicht</caption>
@@ -47,6 +47,7 @@
     </tr>
   </tfoot>
 </table>
+
 
 |Code‑Element:|Code:|Beschreibung:|
 |-|-|-|
