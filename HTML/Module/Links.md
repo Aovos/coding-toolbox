@@ -8,7 +8,7 @@
 |Mail‑Link|`<a href="mailto:adresse@example.com">…</a>`|Öffnet das Standard‑Mailprogramm mit der Adresse|<a href="mailto:info@example.com">E‑Mail senden</a>|
 |Telefon‑Link|`<a href="tel:0123456789">…</a>`|Auf Smartphones anrufbar|<a href="tel:0123456789">Jetzt anrufen</a>|
 
-###### Link‑Attribute (Optionen)
+### Link‑Attribute (Optionen)
 |Attribut|Code|Beschreibung|
 |-|-|-|
 |Neuer Tab|`target="_blank"`|Öffnet den Link in einem neuen Browser‑Tab|
