@@ -16,7 +16,7 @@
 - [Video&Audio](./Module/Video&Audio.md)
 - [Embeds](./Module/Embeds.md)
 - [Tabellen](./Module/Tabellen.md)
-- [Formulare](./Module/Formular.md)
+- [Formulare](./Module/Formulare.md)
 
 # Grundaufbau
 
