@@ -37,7 +37,7 @@
 ```
 
 
-### Grundgerüst erklärt
+### Grundaufbau erklärt
 
 |Abschnitt:|Beschreibung:|
 |-|-|
@@ -45,7 +45,6 @@
 |`<html lang="de">`|HTML‑Tag -> Webseitesprache: Deutsch (zusätzliche Info)|
 |`<head>`|Metainformationen -> Generelle Einstellungen (Titel, Zeichensatz, usw.)|
 |`<body>`|Inhaltsbereich -> Alles was dargestellt wird (z.B. Text, Bilder, Videos, Buttons, usw.|
----
 
 ## head
 
@@ -59,7 +58,6 @@
 |Beschreibung|`<meta name="description" content="">`|Kurzbeschreibung für Suchmaschinen (SEO)|"Die Webseite macht das und das und das|
 |Autor|`<meta name="author" content="">`|Gibt den Autor/Ersteller der Seite an|[Name des Autors]|
 
----
 ## body
 ### Strukturelemente_im_body
 |Code|Code‑Element|Beschreibung|
