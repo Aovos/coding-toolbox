@@ -1,5 +1,5 @@
 [<- Zurück](../Grundaufbau.md)
-# Text-Struktur
+# Text-Strukturen
 |Code‑Element:|Code:|Beschreibung:|Beispiel:|
 |-|-|-|-|
 |Absatz|`<p>...</p>`|Einfacher Text Abssatz -> (z.B. als würde man in Word einfach drauf los tippen)|<p>Mein Text</p>|
