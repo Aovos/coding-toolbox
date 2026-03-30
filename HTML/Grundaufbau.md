@@ -7,7 +7,7 @@
 ### Text
 - [Text‑Überschriften](./Module/Text-Überschrift.md)
 - [Text-Struktur](./Module/Text-Struktur.md)
-- [Text-Formatierungen](./Module/Dateipfade.md)
+- [Text-Formatierungen](./Module/Text-Formatierungen.md)
 ---
 
 
