@@ -1,4 +1,4 @@
-[<- Zurück](./Grundaufbau.md)
+[<- Zurück](../Grundaufbau.md)
 # Formular
 
 Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wie Eingaben, Auswahlfelder und Buttons werden in einem `<form>`-Element zusammengefasst.
