@@ -13,7 +13,7 @@
 - [Links](./Module/Links.md)
 - [Bilder](./Module/Bilder.md)
 - [Video&Audio](./Module/Video&Audio.md)
-- [Externe Einbettungen (Embeds)](#externe-einbettungen)
+- [Embeds](./Module/Embeds.md)
 - [Tabellen](#tabellen)
 
 # Grundaufbau
@@ -75,27 +75,6 @@
 |`<footer>`|Fußbereich|Enthält z. B. Copyright, Kontakt, Impressum, Links|
 |`<div>`|Block‑Container|Strukturelement -> für Layout & Gruppierung von Bereichen|
 
----
-
-
----
-
-#### Externe Einbettungen
-
-|Code‑Element:|Code:|Beschreibung:|
-|-|-|-|
-|Externe Inhalte einbetten|`<iframe src="URL" Optionen></iframe>`|Bindet externe Inhalte wie Webseiten, YouTube‑Videos, Karten oder Tools ein.|
-
-##### Iframe‑Attribute (Optionen)
-
-|Code‑Element:|Code:|Beschreibung:|
-|-|-|-|
-|Breite setzen|`width="600"`|Legt die Breite des eingebetteten Inhalts fest (Pixel oder %)|
-|Höhe setzen|`height="400"`|Legt die Höhe fest (Pixel oder %)|
-|Rahmen deaktivieren|`frameborder="0"`|Entfernt den iframe‑Rahmen (wird oft genutzt)|
-|Vollbild erlauben|`allowfullscreen`|Erlaubt, dass der externe Inhalt im Vollbild angezeigt werden kann|
-|Sicherheits‑/Zugriffsrechte|`allow="..."`|Erlaubt Funktionen wie z.B. `autoplay`, `clipboard-write`, `encrypted-media` usw.|
-|Ladeverhalten|`loading="lazy"`|Lädt das iframe erst, wenn es sichtbar wird (Performance‑Optimierung)|
 
 ---
 
