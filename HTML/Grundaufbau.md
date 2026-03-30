@@ -1,7 +1,8 @@
 # Übersicht:
-
+### Basics
 - [Grundaufbau](#grundaufbau)
 - [Metadaten](#meta-daten)
+- [Dateipfade in HTML](./Module/Dateipfade-in-HTML.md)
 ---
 ### Text
 - [Text‑Überschriften](./Module/Text-Überschrift.md)
@@ -10,7 +11,7 @@
 ---
 
 
-- [Dateipfade in HTML](#dateipfade-in-html)
+
 - [Links](#links)
 - [Bilder](#bilder)
 - [Media (Video & Audio)](#media-video-und-audio)
