@@ -1,8 +1,15 @@
 Übersicht:
 - [Grundgerüst](#grundgerüst)
 - [Metadaten](#meta-daten)
+- [Text-Überschrift](#text-ueberschrift)
+- [Text-Struktur](#text-struktur)
+- [Text-Formatierungen](#text-Fformatierungen)
+- [Dateipfade in HTML](#dateipfade-in-html)
+- [Links](#links)
+- [Bilder](#nilder)
+- [Media (Video & Audio)](#media-(video-&-audio))
+- [Externe Einbettungen (Embeds)](#externe-einbettungen-(embeds))
 - [Tabellen](#tabellen)
-
 
 # Grundgerüst
 
