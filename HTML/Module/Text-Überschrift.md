@@ -1,4 +1,4 @@
-[Zurück zur Übersischt](HTML/Grundgeruest.md)
+[Zurück zur Übersischt](../Grundgeruest.md)
 
 # Text-Überschriften
 
