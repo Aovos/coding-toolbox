@@ -1,10 +1,10 @@
 # Übersicht:
 
 - [Grundaufbau](#grundaufbau)
-
-
-- [Weiter: Text‑Überschriften](Module/Text-Überschrift.md)
 - [Metadaten](#meta-daten)
+---
+- [Text‑Überschriften](Module/Text-Überschrift.md)
+---
 - [Text-Überschrift](#text-überschrift)
 - [Text-Struktur](#text-struktur)
 - [Text-Formatierungen](#text-formatierungen)
