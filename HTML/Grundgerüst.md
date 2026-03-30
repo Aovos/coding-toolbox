@@ -6,7 +6,7 @@
 - [Text-Formatierungen](#text-formatierungen)
 - [Dateipfade in HTML](#dateipfade-in-html)
 - [Links](#links)
-- [Bilder](#nilder)
+- [Bilder](#bilder)
 - [Media (Video & Audio)](#media-(video-&-audio))
 - [Externe Einbettungen (Embeds)](#externe-einbettungen-(embeds))
 - [Tabellen](#tabellen)
