@@ -2,7 +2,7 @@
 ### Basics
 - [Grundaufbau](#grundaufbau)
 - [Metadaten](#meta-daten)
-- [Dateipfade in HTML](./Module/Dateipfade-in-HTML.md)
+- [Dateipfade in HTML](./Module/Dateipfade.md)
 ---
 ### Text
 - [Text‑Überschriften](./Module/Text-Überschrift.md)
