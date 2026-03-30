@@ -36,9 +36,6 @@
 </html>
 ```
 
-
-### Grundaufbau erklärt
-
 |Abschnitt:|Beschreibung:|
 |-|-|
 |`<!DOCTYPE html>`|Deklaration -> sagt dem Browser, dass das Dokument HTML5 ist|
