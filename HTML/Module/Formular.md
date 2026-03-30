@@ -2,9 +2,7 @@
 
 Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wie Eingaben, Auswahlfelder und Buttons werden in einem `<form>`-Element zusammengefasst.
 
----
-
-# Grundaufbau
+## Grundaufbau
 
 ```html
 <form action="ziel.php" method="post">
@@ -18,9 +16,7 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
 |action|`action="ziel.php"`|Zieladresse/Datei, an die die Formulardaten gesendet werden|`action="/absenden.php"`|
 |method|`method="post/get"`|Art der Datenübertragung (GET sichtbar, POST verborgen)|`method="post"`|
 
----
-
-# Labels
+## Labels
 
 Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 
@@ -66,8 +62,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Checkbox|`<input type="checkbox">`|Mehrfachauswahl möglich|AGB akzeptieren|
 |Radio|`<input type="radio" name="x">`|Nur eine Auswahl bei gleichem `name`|Farbe wählen|
 
----
-
 # Textarea
 
 ```html
@@ -78,8 +72,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |-|-|-|-|
 |Textarea|`<textarea>`|Mehrzeiliges Texteingabefeld|Kommentar, Nachricht|
 |rows/cols|`rows="" cols=""`|Sichtbare Größe festlegen|`rows="5"`|
-
----
 
 # Auswahllisten (Select)
 
@@ -96,8 +88,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Option|`<option>`|Eintrag in Auswahl|Rot, Blau|
 |Mehrfachauswahl|`<select multiple>`|Erlaubt mehrere ausgewählte Optionen|STRG+Klick|
 
----
-
 # Buttons
 
 ```html
@@ -111,8 +101,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Button|`<button>`|Vielseitiger Button (mit Text oder HTML)|Absenden|
 |Submit|`<input type="submit">`|Sendet Formular ab|Senden|
 |Reset|`<input type="reset">`|Setzt alle Felder zurück|Zurücksetzen|
-
----
 
 # Gruppierung (fieldset & legend)
 
@@ -129,8 +117,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Fieldset|`<fieldset>`|Gruppiert Formularbereiche|
 |Legend|`<legend>`|Titel der Gruppe|
 
----
-
 # Wichtige Attribute
 
 |Attribut|Code|Beschreibung|Beispiel|
@@ -143,8 +129,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Vorab ausgewählt|`checked`|Checkbox/Radio aktiv|`checked`|
 |Nicht veränderbar|`readonly`|Wert sichtbar aber nicht editierbar|`readonly`|
 |Deaktiviert|`disabled`|Feld nicht verwendbar|`disabled`|
-
----
 
 # Barrierefreiheit
 
