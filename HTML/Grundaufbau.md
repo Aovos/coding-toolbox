@@ -11,7 +11,7 @@
 ---
 ### Inhaltselemente
 - [Links](./Module/Links.md)
-- [Bilder](#bilder)
+- [Bilder](./Module/Bilder.md)
 - [Media (Video & Audio)](#media-video-und-audio)
 - [Externe Einbettungen (Embeds)](#externe-einbettungen)
 - [Tabellen](#tabellen)
@@ -74,37 +74,6 @@
 |`<aside>`|Nebeninhalt|Sidebar, Werbung, ergänzende Infos oder weiterführende Links|
 |`<footer>`|Fußbereich|Enthält z. B. Copyright, Kontakt, Impressum, Links|
 |`<div>`|Block‑Container|Strukturelement -> für Layout & Gruppierung von Bereichen|
-
-
----
-
-#### Links
-
-|Code‑Element:|Code:|Beschreibung:|Beispiel:|
-|-|-|-|-|
-|Standard‑Link|`<a href="URL">…</a>`|Erstellt einen klickbaren Link zu einer anderen Webseite|<a href="https://example.com">Beispiel</a>|
-|Interner Link|`<a href="seite.html">…</a>`|Verlinkt auf eine Datei innerhalb derselben Webseite (Datei muss existieren!)|<a href="kontakt.html">Kontakt</a>|
-|Mail‑Link|`<a href="mailto:adresse@example.com">…</a>`|Öffnet das Standard‑Mailprogramm mit der Adresse|<a href="mailto:info@example.com">E‑Mail senden</a>|
-|Telefon‑Link|`<a href="tel:0123456789">…</a>`|Auf Smartphones anrufbar|<a href="tel:0123456789">Jetzt anrufen</a>|
-
-###### Link‑Attribute (Optionen)
-|Attribut|Code|Beschreibung|
-|-|-|-|
-|Neuer Tab|`target="_blank"`|Öffnet den Link in einem neuen Browser‑Tab|
-|Tooltip|`title="Text"`|Zeigt beim Hover einen Hinweistext (Tooltip) an|
-|Download|`download`|Erzwingt das Herunterladen der verlinkten Datei|
-|Download mit Dateiname|`download="Dateiname.ext"`|Legt einen eigenen Dateinamen für den Download fest|
-
----
-
-#### Bilder
-
-|Code‑Element:|Code:|Beschreibung:|Beispiel:|
-|-|-|-|-|
-|Bild einfügen|`<img src="bild.jpg" alt="Beschreibung">`|Zeigt ein Bild an. `src` = Pfad zur Datei, `alt` = Beschreibung für Screenreader & SEO|<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">|
-|Bildbreite setzen|`<img src="bild.jpg" width="300">`|Legt die sichtbare Breite des Bildes fest (in Pixeln oder %) |<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="300">|
-|Bildhöhe setzen|`<img src="bild.jpg" height="200">`|Legt die sichtbare Höhe des Bildes fest|<img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian-OpenLogo.svg" alt="Debian Logo">|
-|Bildgrößen frei skalieren|`<img src="bild.jpg" width="300" height="200">`|Breite & Höhe gleichzeitig setzen (Achtung: verzerrt das Bild!)|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Archlinux-logo-standard-version.svg/1920px-Archlinux-logo-standard-version.svg.png" width="300" height="200" alt="Arch Linux Logo">|
 
 ---
 
