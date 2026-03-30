@@ -2,7 +2,7 @@
 
 # Tabellen
 
-### Grundaufbau
+## Grundaufbau
 ```
 <table>   = der Rahmen / die komplette Tabelle
 
