@@ -1,5 +1,5 @@
 Content:
-- [Tabellen](tabellen)
+- [Gehe zu Tabellen](#tabellen)
 
 # Grundgerüst
 
