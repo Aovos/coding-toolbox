@@ -10,7 +10,7 @@
 - [Text-Formatierungen](./Module/Text-Formatierungen.md)
 ---
 ### Inhaltselemente
-- [Links](#links)
+- [Links](./Module/Links.md)
 - [Bilder](#bilder)
 - [Media (Video & Audio)](#media-video-und-audio)
 - [Externe Einbettungen (Embeds)](#externe-einbettungen)
