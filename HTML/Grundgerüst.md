@@ -7,7 +7,7 @@
 - [Dateipfade in HTML](#dateipfade-in-html)
 - [Links](#links)
 - [Bilder](#bilder)
-- [Media (Video & Audio)](#media-video-&-audio)
+- [Media (Video & Audio)](#media-video-und-audio)
 - [Externe Einbettungen (Embeds)](#externe-einbettungen)
 - [Tabellen](#tabellen)
 
