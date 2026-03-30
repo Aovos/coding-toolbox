@@ -179,23 +179,4 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Eindeutige IDs|Jedes Feld muss eine einzigartige `id` haben|
 |Gruppierung nutzen|Radios und thematische Bereiche → immer mit `<fieldset>` + `<legend>`|
 
-
----
-<label for="vorname">Vorname:</label>
-<input type="text" id="vorname" name="vorname" required placeholder="Max">
-
-<br><br>
-
-<label for="nachname">Nachname:</label>
-<input type="text" id="nachname" name="nachname" required placeholder="Mustermann">
-
-<br><br>
-
-<label for="email">E-Mail-Adresse:</label>
-<input type="email" id="email" name="email" required placeholder="beispiel@mail.de">
-
-<br><br>
-
-<label for="geburtstag">Geburtsdatum:</label>
-<input type="date" id="geburtstag" name="geburtstag">
 ---
