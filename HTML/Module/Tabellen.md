@@ -1,4 +1,4 @@
-[<- Zurück](../Grundgerüst.md)
+[<- Zurück](../Grundaufbau.md)
 
 # Tabellen
 
