@@ -12,7 +12,7 @@
 ### Inhaltselemente
 - [Links](./Module/Links.md)
 - [Bilder](./Module/Bilder.md)
-- [Video&Audio)](./Module/Video&Audio.md)
+- [Video&Audio](./Module/Video&Audio.md)
 - [Externe Einbettungen (Embeds)](#externe-einbettungen)
 - [Tabellen](#tabellen)
 
