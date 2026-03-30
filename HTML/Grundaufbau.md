@@ -3,11 +3,13 @@
 - [Grundaufbau](#grundaufbau)
 - [Metadaten](#meta-daten)
 ---
+### Text
 - [Text‑Überschriften](./Module/Text-Überschrift.md)
 - [Text-Struktur](./Module/Text-Struktur.md)
+- [Text-Formatierungen](./Module/Text-Formatierungen.md)
 ---
 
-- [Text-Formatierungen](#text-formatierungen)
+
 - [Dateipfade in HTML](#dateipfade-in-html)
 - [Links](#links)
 - [Bilder](#bilder)
