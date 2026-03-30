@@ -183,7 +183,7 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 ---
 # Komplettes Formular – Gesamtbeispiel
 
-```html
+
 <form action="/register.php" method="post">
 
   <!-- Persönliche Daten -->
@@ -256,6 +256,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
   <button type="reset">Zurücksetzen</button>
 
 </form>
-```
+
 
 ---
