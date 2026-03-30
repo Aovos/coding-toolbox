@@ -7,7 +7,7 @@
 ---
 ### Text
 - [Text‑Überschriften](./Module/Text-Überschrift.md)
-- [Text-Struktur](./Module/Text-Struktur.md)
+- [Text-Strukturen](./Module/Text-Strukturen.md)
 - [Text-Formatierungen](./Module/Text-Formatierungen.md)
 ---
 ### Inhaltselemente
@@ -16,7 +16,7 @@
 - [Video&Audio](./Module/Video&Audio.md)
 - [Embeds](./Module/Embeds.md)
 - [Tabellen](./Module/Tabellen.md)
-- [Formular](./Module/Formular.md)
+- [Formulare](./Module/Formular.md)
 
 # Grundaufbau
 
