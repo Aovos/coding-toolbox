@@ -181,81 +181,21 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 
 
 ---
-# Komplettes Formular – Gesamtbeispiel
+<label for="vorname">Vorname:</label>
+<input type="text" id="vorname" name="vorname" required placeholder="Max">
 
+<br><br>
 
-<form action="/register.php" method="post">
+<label for="nachname">Nachname:</label>
+<input type="text" id="nachname" name="nachname" required placeholder="Mustermann">
 
-  <!-- Persönliche Daten -->
-  <fieldset>
-    <legend>Persönliche Daten</legend>
+<br><br>
 
-    <label for="vorname">Vorname:</label>
-    <input type="text" id="vorname" name="vorname" required placeholder="Max">
+<label for="email">E-Mail-Adresse:</label>
+<input type="email" id="email" name="email" required placeholder="beispiel@mail.de">
 
-    <label for="nachname">Nachname:</label>
-    <input type="text" id="nachname" name="nachname" required placeholder="Mustermann">
+<br><br>
 
-    <label for="email">E-Mail-Adresse:</label>
-    <input type="email" id="email" name="email" required placeholder="beispiel@mail.de">
-
-    <label for="geburtstag">Geburtsdatum:</label>
-    <input type="date" id="geburtstag" name="geburtstag">
-
-  </fieldset>
-
-
-  <!-- Zugangsdaten -->
-  <fieldset>
-    <legend>Zugangsdaten</legend>
-
-    <label for="benutzer">Benutzername:</label>
-    <input type="text" id="benutzer" name="benutzer" required placeholder="Username123">
-
-    <label for="passwort">Passwort:</label>
-    <input type="password" id="passwort" name="passwort" required>
-
-    <label for="passwort2">Passwort wiederholen:</label>
-    <input type="password" id="passwort2" name="passwort2" required>
-
-  </fieldset>
-
-
-  <!-- Einstellungen -->
-  <fieldset>
-    <legend>Einstellungen</legend>
-
-    <label for="farbe">Lieblingsfarbe:</label>
-    <select id="farbe" name="farbe">
-      <option value="rot">Rot</option>
-      <option value="blau">Blau</option>
-      <option value="gruen">Grün</option>
-    </select>
-
-    <label>Newsletter:</label>
-    <input type="radio" name="newsletter" value="ja"> Ja
-    <input type="radio" name="newsletter" value="nein" checked> Nein
-
-    <label for="agb">AGB akzeptieren:</label>
-    <input type="checkbox" id="agb" name="agb" required>
-
-  </fieldset>
-
-
-  <!-- Freitext -->
-  <fieldset>
-    <legend>Zusätzliche Informationen</legend>
-
-    <label for="bio">Ihre Nachricht / Notiz:</label>
-    <textarea id="bio" name="bio" rows="5" placeholder="Schreiben Sie etwas über sich..."></textarea>
-
-  </fieldset>
-
-  <!-- Buttons -->
-  <button type="submit">Registrieren</button>
-  <button type="reset">Zurücksetzen</button>
-
-</form>
-
-
+<label for="geburtstag">Geburtsdatum:</label>
+<input type="date" id="geburtstag" name="geburtstag">
 ---
