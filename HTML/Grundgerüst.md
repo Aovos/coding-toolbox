@@ -158,7 +158,7 @@ unterordner/datei.png     → Datei im Unterordner (Ordnernamen immer ausschreib
 
 ---
 
-#### Media (Video & Audio)
+#### Media Video & Audio
 
 
 |Code‑Element:|Code:|Beschreibung:|
@@ -178,7 +178,7 @@ unterordner/datei.png     → Datei im Unterordner (Ordnernamen immer ausschreib
 
 ---
 
-#### Externe Einbettungen (Embeds)
+#### Externe Einbettungen
 
 |Code‑Element:|Code:|Beschreibung:|
 |-|-|-|
