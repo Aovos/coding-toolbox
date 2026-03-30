@@ -1,4 +1,4 @@
-[Zurück zur Übersischt](../Grundgeruest.md)
+[Zurück zur Übersischt](../Grundgerüst.md)
 
 # Text-Überschriften
 
