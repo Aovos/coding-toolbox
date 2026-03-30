@@ -3,7 +3,7 @@
 - [Metadaten](#meta-daten)
 - [Text-Überschrift](#text-überschrift)
 - [Text-Struktur](#text-struktur)
-- [Text-Formatierungen](#text-Fformatierungen)
+- [Text-Formatierungen](#text-formatierungen)
 - [Dateipfade in HTML](#dateipfade-in-html)
 - [Links](#links)
 - [Bilder](#nilder)
