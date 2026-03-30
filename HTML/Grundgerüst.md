@@ -158,7 +158,7 @@ unterordner/datei.png     → Datei im Unterordner (Ordnernamen immer ausschreib
 
 ---
 
-#### Media Video & Audio
+#### Media Video und Audio
 
 
 |Code‑Element:|Code:|Beschreibung:|
