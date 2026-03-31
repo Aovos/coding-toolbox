@@ -1,13 +1,7 @@
 [<- Zurück](../Grundaufbau.md)
 # Formulare
-
-Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wie Eingaben, Auswahlfelder und Buttons werden in einem `<form>`-Element zusammengefasst.
-
-
-
-
-
-## Grundaufbau
+> Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wie Eingaben, Auswahlfelder und Buttons werden in einem `<form>`-Element zusammengefasst
+### Grundaufbau
 
 ```html
 <form action="ziel.php" method="post">
@@ -17,10 +11,12 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
   textarea
   select
   buttons
-  
-  
+  ...
+  ..
+  .
 </form>
 ```
+
 
 |Code-Element|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -28,9 +24,139 @@ Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wi
 |action|`action="ziel.php"`|Zieladresse/Datei, an die die Formulardaten gesendet werden|`action="/absenden.php"`|
 |method|`method="post/get"`|Art der Datenübertragung (GET=sichtbar offen, POST=versteckt & vertraulich)|`method="post"`|
 
+## Beispiel
+``` html
+<form action="ziel.php" method="post" enctype="multipart/form-data">
+
+  <!-- Persönliche Daten -->
+  <fieldset>
+    <legend>Persönliche Daten</legend>
+
+    <!-- Vorname -->
+    <label for="vorname">Vorname</label>
+    <input type="text" id="vorname" name="vorname" placeholder="Max" required>
+
+    <!-- Alter -->
+    <label for="alter">Alter</label>
+    <input type="number" id="alter" name="alter" min="1" max="120">
+
+    <!-- Geburtsdatum -->
+    <label for="geburt">Geburtsdatum</label>
+    <input type="date" id="geburt" name="geburt">
+  </fieldset>
+
+
+  <!-- Login / Zugangsdaten -->
+  <fieldset>
+    <legend>Login & Sicherheit</legend>
+
+    <!-- E-Mail -->
+    <label for="email">E-Mail</label>
+    <input type="email" id="email" name="email" autocomplete="email">
+
+    <!-- Passwort -->
+    <label for="passwort">Passwort</label>
+    <input type="password" id="passwort" name="passwort" minlength="8" required>
+  </fieldset>
+
+
+  <!-- Geschlecht -->
+  <fieldset>
+    <legend>Geschlecht</legend>
+
+    <!-- Auswahl Radio Buttons -->
+    <label><input type="radio" name="geschlecht" value="m"> Männlich</label>
+    <label><input type="radio" name="geschlecht" value="w"> Weiblich</label>
+    <label><input type="radio" name="geschlecht" value="d"> Divers</label>
+  </fieldset>
+
+
+  <!-- Kontakt & Auswahl -->
+  <fieldset>
+    <legend>Kontakt & Auswahl</legend>
+
+    <!-- Lieblingsfarbe -->
+    <label for="farbe">Lieblingsfarbe</label>
+    <select id="farbe" name="farbe">
+      <option value="rot">Rot</option>
+      <option value="blau">Blau</option>
+      <option value="grün">Grün</option>
+    </select>
+
+    <!-- Land -->
+    <label for="land">Land</label>
+    <input list="laender" id="land" name="land">
+    <datalist id="laender">
+      <option value="Deutschland">
+      <option value="Österreich">
+      <option value="Schweiz">
+    </datalist>
+  </fieldset>
+
+
+  <!-- Nachricht -->
+  <fieldset>
+    <legend>Nachricht</legend>
+
+    <!-- Textbereich -->
+    <label for="nachricht">Nachricht</label>
+    <textarea id="nachricht" name="nachricht" rows="4" cols="40"></textarea>
+  </fieldset>
+
+
+  <!-- Einstellungen -->
+  <fieldset>
+    <legend>Einstellungen</legend>
+
+    <!-- Lautstärke -->
+    <label for="bereich">Lautstärke</label>
+    <input type="range" id="bereich" name="bereich" min="0" max="100">
+
+    <!-- Farbwähler -->
+    <label for="farbe_picker">Farbwahl</label>
+    <input type="color" id="farbe_picker" name="farbe_picker" value="#ff0000">
+  </fieldset>
+
+
+  <!-- Datei-Upload -->
+  <fieldset>
+    <legend>Dateiupload</legend>
+
+    <!-- Datei -->
+    <label for="datei">Datei hochladen</label>
+    <input type="file" id="datei" name="datei">
+  </fieldset>
+
+
+  <!-- AGB -->
+  <label><input type="checkbox" name="agb" required> AGB akzeptieren</label>
+
+  <!-- Buttons -->
+  <button type="submit">Absenden</button>
+  <button type="reset">Zurücksetzen</button>
+
+</form>
+```
+## Gruppierung fieldset und legend
+```html
+  <fieldset>
+    <legend>Bennungen/Überschrift des fieldsets</legend>
+  </fieldset>
+```
+|Element|Code|Beschreibung|
+|-|-|-|
+|Fieldset|`<fieldset>`|Gruppiert Formularbereiche|
+|Legend|`<legend>`|Titel der Gruppe|
+
 ## Labels
 
 Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
+```html
+<label for="feld-id">Beschriftung</label>
+<input type="text" id="feld-id" name="feldname">
+```
+
+
 
 |Code-Element|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -105,21 +231,6 @@ Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 |Button|`<button>`|Vielseitiger Button (mit Text oder HTML)|Absenden|
 |Submit|`<input type="submit">`|Sendet Formular ab|Senden|
 |Reset|`<input type="reset">`|Setzt alle Felder zurück|Zurücksetzen|
-
-# Gruppierung (fieldset & legend)
-
-```html
-<fieldset>
-  <legend>Persönliche Daten</legend>
-  <label for="v">Vorname</label>
-  <input type="text" id="v">
-</fieldset>
-```
-
-|Element|Code|Beschreibung|
-|-|-|-|
-|Fieldset|`<fieldset>`|Gruppiert Formularbereiche|
-|Legend|`<legend>`|Titel der Gruppe|
 
 # Wichtige Attribute
 
