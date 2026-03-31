@@ -1,23 +1,3 @@
-# Aufbauindex:
-### Basics
-- [Grundaufbau](#grundaufbau)
-- [Metadaten](#meta-daten)
-- [Strukturelemente_im_body](#strukturelemente_im_body)
-- [Dateipfade](./Module/Dateipfade.md)
----
-### Text
-- [Text‑Überschriften](./Module/Text-Überschrift.md)
-- [Text-Strukturen](./Module/Text-Strukturen.md)
-- [Text-Formatierungen](./Module/Text-Formatierungen.md)
----
-### Inhaltselemente
-- [Links](./Module/Links.md)
-- [Bilder](./Module/Bilder.md)
-- [Video&Audio](./Module/Video&Audio.md)
-- [Embeds](./Module/Embeds.md)
-- [Tabellen](./Module/Tabellen.md)
-- [Formulare](./Module/Formulare.md)
-
 # Grundaufbau
 
 ```html
@@ -44,6 +24,27 @@
 |`<html lang="de">`|HTML‑Tag -> Webseitesprache: Deutsch (zusätzliche Info)|
 |`<head>`|Metainformationen -> Generelle Einstellungen (Titel, Zeichensatz, usw.)|
 |`<body>`|Inhaltsbereich -> Alles was dargestellt wird (z.B. Text, Bilder, Videos, Buttons, usw.|
+
+
+# Index:
+### Basics
+- [Grundaufbau](#grundaufbau)
+- [Metadaten](#meta-daten)
+- [Strukturelemente_im_body](#strukturelemente_im_body)
+- [Dateipfade](./Module/Dateipfade.md)
+---
+### Text
+- [Text‑Überschriften](./Module/Text-Überschrift.md)
+- [Text-Strukturen](./Module/Text-Strukturen.md)
+- [Text-Formatierungen](./Module/Text-Formatierungen.md)
+---
+### Inhaltselemente
+- [Links](./Module/Links.md)
+- [Bilder](./Module/Bilder.md)
+- [Video&Audio](./Module/Video&Audio.md)
+- [Embeds](./Module/Embeds.md)
+- [Tabellen](./Module/Tabellen.md)
+- [Formulare](./Module/Formulare.md)
 
 ## head
 
