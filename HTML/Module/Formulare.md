@@ -1,7 +1,7 @@
 [<- Zurück](../Grundaufbau.md)
 # Formulare
 > Formulare dienen zur Eingabe und Übermittlung von Benutzerdaten. Alle Felder wie Eingaben, Auswahlfelder und Buttons werden in einem `<form>`-Element zusammengefasst
-### Grundaufbau
+## Grundaufbau
 
 ```html
 <form action="ziel.php" method="post">
@@ -24,13 +24,18 @@
 |action|`action="ziel.php"`|Zieladresse/Datei, an die die Formulardaten gesendet werden|`action="/absenden.php"`|
 |method|`method="post/get"`|Art der Datenübertragung (GET=sichtbar offen, POST=versteckt & vertraulich)|`method="post"`|
 
-# Index:
+## Index:
 - [Grundaufbau](#grundaufbau)
 - [Beispiel](#beispiel)
-- [Gruppierung fieldset und legend](#gruppierung-fieldset-und-legend)
+- [Gruppierung](#gruppierung)
+- [Barrierefreiheit](#barrierefreiheit)
 - [Labels](#labels)
 - [Eingabefeld Text](#eingabefeld-text)
-- [Kontrollfelder--Checkbox--Radio)](#kontrollfelder--checkbox--radio)
+- [Checkbox--Radio)](#checkbox--radio)
+- [Textarea](#textarea)
+- [Auswahllisten](#auswahllisten)
+- [Buttons](#buttons)
+- [Atribute](#atribute)
 
 ## Beispiel
 ``` html
@@ -146,7 +151,7 @@
 </form>
 ```
 
-## Gruppierung fieldset und legend
+## Gruppierung
 ```html
   <fieldset>
     <legend>Benennung/Überschrift des fieldsets</legend>
@@ -157,6 +162,15 @@
 |-|-|-|
 |Fieldset|`<fieldset>`|Gruppiert Formularbereiche|
 |Legend|`<legend>`|Titel der Gruppe|
+
+## Barrierefreiheit
+
+|Empfehlung|Beschreibung|
+|-|-|
+|Label immer verwenden|Jedes Eingabefeld braucht ein zugehöriges `<label>`|
+|Eindeutige IDs|Jedes Feld muss eine einzigartige `id` haben|
+|Gruppierung nutzen|Radios und thematische Bereiche → immer mit `<fieldset>` + `<legend>`|
+
 
 ## Labels
 ```html
@@ -187,7 +201,7 @@
 |Time|`<input type="time">`|Uhrzeitauswahl|14:30|
 |Datetime|`<input type="datetime-local">`|Datum + Uhrzeit|2026-03-30T14:30|
 
-# Kontrollfelder--Checkbox--Radio
+## Checkbox--Radio
 
 ```html
 <input type="checkbox" id="agb">
@@ -202,7 +216,7 @@
 |Checkbox|`<input type="checkbox">`|Mehrfachauswahl möglich|AGB akzeptieren|
 |Radio|`<input type="radio" name="x">`|Nur eine Auswahl bei gleichem `name`|Farbe wählen|
 
-# Textarea
+## Textarea
 
 ```html
 <textarea rows="4" cols="40"></textarea>
@@ -213,7 +227,7 @@
 |Textarea|`<textarea>`|Mehrzeiliges Texteingabefeld|Kommentar, Nachricht|
 |rows/cols|`rows="" cols=""`|Sichtbare Größe festlegen|`rows="5"`|
 
-# Auswahllisten (Select)
+## Auswahllisten
 
 ```html
 <select>
@@ -228,7 +242,7 @@
 |Option|`<option>`|Eintrag in Auswahl|Rot, Blau|
 |Mehrfachauswahl|`<select multiple>`|Erlaubt mehrere ausgewählte Optionen|STRG+Klick|
 
-# Buttons
+## Buttons
 
 ```html
 <button>Absenden</button>
@@ -242,7 +256,7 @@
 |Submit|`<input type="submit">`|Sendet Formular ab|Senden|
 |Reset|`<input type="reset">`|Setzt alle Felder zurück|Zurücksetzen|
 
-# Wichtige Attribute
+## Attribute
 
 |Attribut|Code|Beschreibung|Beispiel|
 |-|-|-|-|
@@ -255,12 +269,3 @@
 |Nicht veränderbar|`readonly`|Wert sichtbar aber nicht editierbar|`readonly`|
 |Deaktiviert|`disabled`|Feld nicht verwendbar|`disabled`|
 
-# Barrierefreiheit
-
-|Empfehlung|Beschreibung|
-|-|-|
-|Label immer verwenden|Jedes Eingabefeld braucht ein zugehöriges `<label>`|
-|Eindeutige IDs|Jedes Feld muss eine einzigartige `id` haben|
-|Gruppierung nutzen|Radios und thematische Bereiche → immer mit `<fieldset>` + `<legend>`|
-
----
