@@ -26,7 +26,7 @@
 |`<body>`|Inhaltsbereich -> Alles was dargestellt wird (z.B. Text, Bilder, Videos, Buttons, usw.|
 
 
-# Index:
+## Index:
 ### Basics
 - [Grundaufbau](#grundaufbau)
 - [Metadaten](#meta-daten)
