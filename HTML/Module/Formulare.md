@@ -137,31 +137,33 @@
 
 </form>
 ```
+
 ## Gruppierung fieldset und legend
 ```html
   <fieldset>
     <legend>Bennungen/Überschrift des fieldsets</legend>
   </fieldset>
 ```
+
 |Element|Code|Beschreibung|
 |-|-|-|
 |Fieldset|`<fieldset>`|Gruppiert Formularbereiche|
 |Legend|`<legend>`|Titel der Gruppe|
 
 ## Labels
-
-Labels verbinden Text mit einem Eingabefeld (`for` → `id`).
 ```html
-<label for="feld-id">Beschriftung</label>
-<input type="text" id="feld-id" name="feldname">
+<label for="id-name">Displayname</label>
+<input type="text" id="id-name" name="übertragungsvariable" value="vordefinierterWert>
 ```
-
-
 
 |Code-Element|Code|Beschreibung|Beispiel|
 |-|-|-|-|
-|Label|`<label for="id">`|Text, der mit einem Feld verknüpft ist|`<label for="email">E-Mail</label>`|
-|Verknüpfung|`for="id"`|Zeigt auf das zugehörige Eingabefeld|`for="pw"`|
+|Label (Beschriftung)| `<label for="id">`| Sichtbarer Text für Benutzer & Screenreader. Beschriftet das Eingabefeld.| `<label for="email">E‑Mail</label>` |
+|Verknüpfung Label → Input| `for="id"`| Verbindet Label mit Input über die gleiche `id`. Klick auf Label fokussiert das Feld.| `for="pw"`|
+|Art der Eingabe (Input-Typ)|`type="text"`|Bestimmt die Art des Eingabefeldes (Text, Zahl, Passwort, E‑Mail, Datum …)|`type="email"`|
+|ID des Eingabefeldes| `id="feld-id"`| Identifiziert das Eingabefeld im HTML. Wichtig für Label, CSS und JavaScript. **Nicht** relevant für Server‑Übertragung. |`id="email"`|
+|Server‑Variablenname| `name="Server-Variable"`| **Wichtigstes Formular‑Attribut.** der Wert beim Server ankommt. Ohne `name`: Wert wird **nicht** gesendet. | `name="email"`|
+|Value‑Holder (Optional)| `value="..."`| Startwert oder aktueller Wert des Feldes. Wird vom Benutzer überschrieben und beim Absenden zusammen mit `name` übertragen.|`value="info@test.de"`|
 
 ## Eingabefeld Text
 
