@@ -31,7 +31,7 @@
 - [Barrierefreiheit](#barrierefreiheit)
 - [Labels](#labels)
 - [Eingabefeld Text](#eingabefeld-text)
-- [Checkbox--Radio)](#checkbox--radio)
+- [Checkbox--Radio](#checkbox--radio)
 - [Textarea](#textarea)
 - [Auswahllisten](#auswahllisten)
 - [Buttons](#buttons)
