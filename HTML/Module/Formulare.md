@@ -36,6 +36,7 @@
 - [Auswahllisten](#auswahllisten)
 - [Buttons](#buttons)
 - [Atribute](#atribute)
+- [Musterprüfung](#musterprüfung)
 
 ## Beispiel
 ``` html
@@ -284,5 +285,60 @@
 |Tooltip|`title="Text"`|Hinweis erscheint beim Hover|`title="Nur Buchstaben erlaubt"`|
 |||||
 |Zugehöriges Formular|`form="id"`|Ordnet Feld einem anderen Formular zu|`<input form="loginform">`|
+
+## Musterprüfung
+Das `pattern`-Attribut erlaubt es, Eingaben über **Reguläre Ausdrücke (Regex)** zu validieren.  
+Damit kann man z. B. erlauben oder verhindern:
+
+- bestimmte Zeichen (nur Buchstaben, nur Zahlen usw.)
+- bestimmte Längen
+- Muster wie PLZ, Telefonnummern, Benutzernamen
+- Mindestanforderungen für Passwörter
+
+### Grundaufbau
+
+```html
+<input type="text" pattern="REGEX" title="Beschreibung des Musters">
+```
+
+##### Nur Buchstaben (a–z, A–Z)
+```html
+<input type="text" pattern="[A-Za-z]+" title="Nur Buchstaben erlaubt">
+```
+
+##### Nur Zahlen (0–9)
+```html
+<input type="text" pattern="[0-9]+" title="Nur Zahlen erlaubt">
+```
+
+##### Deutsche Postleitzahl (genau 5 Ziffern)
+```html
+<input type="text" pattern="^[0-9]{5}$" title="Bitte eine 5-stellige PLZ eingeben">
+```
+
+##### Benutzername (3–16 Zeichen, Buchstaben & Zahlen erlaubt)
+```html
+<input type="text" pattern="^[A-Za-z0-9]{3,16}$" title="3–16 Zeichen, nur Buchstaben und Zahlen">
+```
+
+##### Passwort (mind. 1 Großbuchstabe, 1 Zahl, mind. 8 Zeichen)
+```html
+<input type="password" pattern="^(?=.*[A-Z])(?=.*[0-9]).{8,}$" title="Mindestens 8 Zeichen, ein Großbuchstabe und eine Zahl">
+```
+
+##### Telefonnummer (simple Variante)
+```html
+<input type="tel" pattern="^[0-9+\-\/ ]{6,}$" title="Telefonnummer: mindestens 6 Ziffern oder Sonderzeichen">
+```
+
+##### E-Mail (vereinfachtes Muster – nur als Beispiel)
+```html
+<input type="email" pattern=".+@.+\..+" title="E-Mail-Format: name@domain.tld">
+```
+
+
+
+
+
 
 
