@@ -268,4 +268,15 @@
 |Vorab ausgewählt|`checked`|Checkbox/Radio aktiv|`checked`|
 |Nicht veränderbar|`readonly`|Wert sichtbar aber nicht editierbar|`readonly`|
 |Deaktiviert|`disabled`|Feld nicht verwendbar|`disabled`|
+|Maximale Zeichen|`maxlength="Zahl"`|Begrenzt die maximale Zeichenanzahl|`maxlength="20"`|
+|Minimale Zeichen|`minlength="Zahl"`|Eingabe muss mindestens X Zeichen haben|`minlength="3"`|
+|Musterprüfung|`pattern="Regex"`|Validierung über regulären Ausdruck|`pattern="[A-Za-z]{3,}"`|
+|Tooltip|`title="Text"`|Hinweis erscheint beim Hover|`title="Nur Buchstaben erlaubt"`|
+|Autofokus|`autofocus`|Feld wird automatisch fokussiert|`<input autofocus>`|
+|Autocomplete|`autocomplete="off"`|Steuert Browser-Autovervollständigung|`autocomplete="email"`|
+|Mehrfachauswahl|`multiple`|Erlaubt mehrere Werte (file/select)|`<input type="file" multiple>`|
+|Erlaubte Dateiarten|`accept="MimeTypes"`|Beschränkt erlaubte Dateitypen beim Upload|`accept="image/png"`|
+|Zugehöriges Formular|`form="id"`|Ordnet Feld einem anderen Formular zu|`<input form="loginform">`|
+
+
 
