@@ -258,25 +258,31 @@
 
 ## Attribute
 
+
 |Attribut|Code|Beschreibung|Beispiel|
 |-|-|-|-|
 |Pflichtfeld|`required`|Eingabe ist notwendig|`<input required>`|
 |Platzhalter|`placeholder="Text"`|Hilfstext im Feld|`placeholder="Name eingeben"`|
 |Vorgabewert|`value=""`|Vorbelegung|`value="Max"`|
-|Min/Max|`min="" max=""`|Grenzwerte für Zahlen|`min="18"`|
-|Schrittweite|`step=""`|Zahlenabstand|`step="0.5"`|
-|Vorab ausgewählt|`checked`|Checkbox/Radio aktiv|`checked`|
-|Nicht veränderbar|`readonly`|Wert sichtbar aber nicht editierbar|`readonly`|
-|Deaktiviert|`disabled`|Feld nicht verwendbar|`disabled`|
+|||||
 |Maximale Zeichen|`maxlength="Zahl"`|Begrenzt die maximale Zeichenanzahl|`maxlength="20"`|
 |Minimale Zeichen|`minlength="Zahl"`|Eingabe muss mindestens X Zeichen haben|`minlength="3"`|
 |Musterprüfung|`pattern="Regex"`|Validierung über regulären Ausdruck|`pattern="[A-Za-z]{3,}"`|
-|Tooltip|`title="Text"`|Hinweis erscheint beim Hover|`title="Nur Buchstaben erlaubt"`|
-|Autofokus|`autofocus`|Feld wird automatisch fokussiert|`<input autofocus>`|
-|Autocomplete|`autocomplete="off"`|Steuert Browser-Autovervollständigung|`autocomplete="email"`|
+|||||
+|Min/Max|`min="" max=""`|Grenzwerte für Zahlen|`min="18"`|
+|Schrittweite|`step=""`|Zahlenabstand|`step="0.5"`|
+|||||
 |Mehrfachauswahl|`multiple`|Erlaubt mehrere Werte (file/select)|`<input type="file" multiple>`|
 |Erlaubte Dateiarten|`accept="MimeTypes"`|Beschränkt erlaubte Dateitypen beim Upload|`accept="image/png"`|
+|||||
+|Vorab ausgewählt|`checked`|Checkbox/Radio aktiv|`checked`|
+|Nicht veränderbar|`readonly`|Wert sichtbar aber nicht editierbar|`readonly`|
+|Deaktiviert|`disabled`|Feld nicht verwendbar|`disabled`|
+|||||
+|Autocomplete|`autocomplete="off"`|Steuert Browser-Autovervollständigung|`autocomplete="email"`|
+|Autofokus|`autofocus`|Feld wird automatisch fokussiert|`<input autofocus>`|
+|Tooltip|`title="Text"`|Hinweis erscheint beim Hover|`title="Nur Buchstaben erlaubt"`|
+|||||
 |Zugehöriges Formular|`form="id"`|Ordnet Feld einem anderen Formular zu|`<input form="loginform">`|
-
 
 
